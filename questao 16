@@ -1,0 +1,7 @@
+valor = input("Digite um valor: ")
+print("Tipo:", type(valor))
+try:
+    num = int(valor)
+    print("Quadrado:", num ** 2)
+except:
+    print("Não é numérico")
